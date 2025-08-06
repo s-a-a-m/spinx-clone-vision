@@ -7,36 +7,46 @@ All colors MUST be HSL.
 */
 
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+:root {
+    /* SpinX Digital inspired color palette */
+    --background: 222 22% 10%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 222 22% 12%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 222 22% 12%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 75 71% 58%;
+    --primary-foreground: 222 22% 10%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 222 22% 15%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 222 22% 15%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 222 22% 15%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 222 22% 20%;
+    --input: 222 22% 15%;
+    --ring: 75 71% 58%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+    
+    /* Custom SpinX gradients */
+    --gradient-hero: linear-gradient(135deg, #00b4d8 0%, #0077b6 25%, #6a4c93 75%, #9d4edd 100%);
+    --gradient-text: linear-gradient(135deg, #4cc9f0 0%, #7209b7 50%, #560bad 100%);
+    --gradient-card: linear-gradient(135deg, rgba(34, 193, 195, 0.1) 0%, rgba(253, 187, 45, 0.1) 100%);
+    
+    /* Animation variables */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --shadow-glow: 0 0 50px rgba(117, 194, 240, 0.3);
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,41 +66,34 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Same as root for consistent dark theme */
+    --background: 222 22% 10%;
+    --foreground: 0 0% 98%;
+    --card: 222 22% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 222 22% 12%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 75 71% 58%;
+    --primary-foreground: 222 22% 10%;
+    --secondary: 222 22% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 222 22% 15%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 222 22% 15%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 222 22% 20%;
+    --input: 222 22% 15%;
+    --ring: 75 71% 58%;
+    --sidebar-background: 222 22% 10%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 75 71% 58%;
+    --sidebar-primary-foreground: 222 22% 10%;
+    --sidebar-accent: 222 22% 15%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 222 22% 20%;
+    --sidebar-ring: 75 71% 58%;
   }
 }
 
@@ -100,6 +103,43 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  /* Gradient text utilities */
+  .gradient-text {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .gradient-hero {
+    background: var(--gradient-hero);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@layer components {
+  /* Hero text styles */
+  .hero-text {
+    @apply text-7xl md:text-8xl lg:text-9xl font-bold leading-none tracking-tight;
+    background: var(--gradient-hero);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Card hover effects */
+  .project-card {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-2xl;
+    transition: var(--transition-smooth);
+  }
+  
+  .project-card:hover {
+    box-shadow: var(--shadow-glow);
   }
 }
