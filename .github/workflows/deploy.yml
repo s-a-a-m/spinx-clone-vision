@@ -24,7 +24,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Install dependencies
         run: npm ci
@@ -35,7 +35,7 @@ jobs:
       - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./dist   # Vite output
 
   deploy:
     needs: build
@@ -44,11 +44,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages   # 👈 Must match the name used by `upload-pages-artifact`
-
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
