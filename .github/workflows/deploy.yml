@@ -38,12 +38,17 @@ jobs:
           path: ./dist
 
   deploy:
-    needs: build # ✅ This line is required to connect build → deploy
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages   # 👈 Must match the name used by `upload-pages-artifact`
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
