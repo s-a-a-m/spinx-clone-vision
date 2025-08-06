@@ -7,9 +7,9 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-foreground">SPINX</h3>
+            <h3 className="text-2xl font-bold text-foreground">Unified Wisdom</h3>
             <p className="text-muted-foreground">
-              Strategic digital solutions that elevate your brand and drive growth.
+              Intelligence made simple for real-world results.
             </p>
             <div className="space-y-2">
               <p className="text-sm text-muted-foreground">213.894.9933</p>
@@ -57,7 +57,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm text-muted-foreground">
-            © 2024 SPINX Digital. All rights reserved.
+            © 2024 Unified Wisdom. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>

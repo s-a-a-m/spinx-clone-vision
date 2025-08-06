@@ -12,7 +12,7 @@ export const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <span className="text-2xl font-bold text-foreground">
-              SPINX
+              Unified Wisdom
             </span>
           </div>
 
@@ -42,7 +42,7 @@ export const Header = () => {
               variant="default" 
               className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold px-6"
             >
-              LET'S TALK
+              Explore Collaboration
             </Button>
           </div>
 
@@ -79,7 +79,7 @@ export const Header = () => {
                   variant="default" 
                   className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold w-full"
                 >
-                  LET'S TALK
+                  Explore Collaboration
                 </Button>
               </div>
             </nav>

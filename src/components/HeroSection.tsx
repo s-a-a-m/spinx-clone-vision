@@ -11,13 +11,10 @@ export const HeroSection = () => {
           {/* Main Hero Text */}
           <div className="space-y-4">
             <h1 className="hero-text">
-              Strategic
-            </h1>
-            <h1 className="hero-text">
-              Websites
+              Intelligence Made Simple
             </h1>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-foreground/90 tracking-wide">
-              That Tell Your Story <span className="text-muted-foreground">-And Drive Results</span>
+              We help tradespeople, founders, and technical teams turn smart thinking into simple, real-world results.
             </h2>
           </div>
 
@@ -27,21 +24,21 @@ export const HeroSection = () => {
               <div className="w-16 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex-shrink-0"></div>
               <div className="text-left space-y-4">
                 <p className="text-lg text-foreground">
-                  <span className="font-semibold">At SPINX Digital,</span>
+                  <span className="font-semibold">At Unified Wisdom,</span>
                 </p>
                 <h3 className="text-2xl md:text-3xl font-bold text-foreground leading-tight">
-                  we turn complex ideas into{" "}
-                  <span className="gradient-text">immersive digital solutions</span>
+                  we bridge the gap between{" "}
+                  <span className="gradient-text">complex intelligence and practical solutions</span>
                 </h3>
                 <p className="text-muted-foreground">
-                  that elevate your brand, connect you with your audience, and drive your desired growth.
+                  helping you implement smart strategies that work in the real world.
                 </p>
                 <Button 
                   variant="outline" 
                   size="lg"
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground mt-4"
                 >
-                  Request a Web Design Consultation
+                  Explore Collaboration
                 </Button>
               </div>
             </div>
