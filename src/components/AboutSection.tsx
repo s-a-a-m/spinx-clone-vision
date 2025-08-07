@@ -1,17 +1,17 @@
 export const AboutSection = () => {
   const stats = [
-    { number: "20+", label: "Years in business" },
-    { number: "250+", label: "Websites launched" },
-    { number: "100+", label: "Happy clients" },
+    { number: "7+", label: "Years in business" },
+    { number: 10+", label: "Solutions launched" },
+    { number: "€1.3B", label: "Infrastructure project scale deployed" } ,
     { number: "98%", label: "Client satisfaction" }
   ];
 
   const values = [
-    "Strategic",
-    "Partnerships", 
-    "Innovative",
-    "Nimble",
-    "Experienced"
+    "VALUE 1",
+    "VALUE 2", 
+    "VALUE 3",
+    "VALUE 4",
+    "VALUE 5"
   ];
 
   return (
@@ -40,9 +40,7 @@ export const AboutSection = () => {
 
         <div className="max-w-4xl mx-auto text-center mb-16">
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-            Your website is more than just a tool—it's a chance to tell your story and spur people to action. 
-            Through a collaborative, shared vision, we craft digital experiences that embody your brand's 
-            essence and position you as the obvious choice for your audience.
+            ABOUT TEXT
           </p>
         </div>
 
