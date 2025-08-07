@@ -1,9 +1,7 @@
-import Index from "./pages/Index";
-
 const App = () => {
   return (
-    <div>
-      <Index />
+    <div style={{ color: "white", fontSize: "2em" }}>
+      App is Alive!
     </div>
   );
 };
