@@ -31,7 +31,7 @@ export const HeroSection = () => {
                   <span className="gradient-text">complex intelligence and practical solutions</span>
                 </h3>
                 <p className="text-muted-foreground">
-                  helping you implement smart strategies that work in the real world.
+                  helping you implement smart strategies that work in the real world...
                 </p>
                 <Button 
                   variant="outline" 
