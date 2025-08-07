@@ -19,8 +19,8 @@ export const FeaturedProjects = () => {
     },
     {
       title: "Example Project",
-      subtitle: "Restructuring Success: PSZJ's Bankruptcy Law Firm Website Redesign",
-      description: "Professional website redesign for a bankruptcy law firm, emphasizing trust, credibility, and client accessibility.",
+      subtitle: "Text",
+      description: "Text",
       image: "/pszj-preview.jpg",
       caseStudyLink: "/pszj-case-study"
     }
