@@ -1,7 +1,7 @@
 export const AboutSection = () => {
   const stats = [
     { number: "7+", label: "Years in business" },
-    { number: 10+", label: "Solutions launched" },
+    { number: "10+", label: "Solutions launched" },
     { number: "€1.3B", label: "Infrastructure project scale deployed" } ,
     { number: "98%", label: "Client satisfaction" }
   ];
