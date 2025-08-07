@@ -1,4 +1,5 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button"; // if this file lives in /components
+;
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
