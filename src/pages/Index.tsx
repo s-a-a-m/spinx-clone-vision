@@ -1,10 +1,10 @@
-import { Header } from "../components/Header";
-import { HeroSection } from "../components/HeroSection";
-import { FeaturedProjects } from "../components/FeaturedProjects";
-import { SystemsSection } from "../components/SystemsSection";
-import { AboutSection } from "../components/AboutSection";
-import { ServicesSection } from "../components/ServicesSection";
-import { Footer } from "../components/Footer";
+import { Header } from "@/components/Header";
+import { HeroSection } from "@/components/HeroSection";
+import { FeaturedProjects } from "@/components/FeaturedProjects";
+import { SystemsSection } from "@/components/SystemsSection";
+import { AboutSection } from "@/components/AboutSection";
+import { ServicesSection } from "@/components/ServicesSection";
+import { Footer } from "@/components/Footer";
 
 
 const Index = () => {
