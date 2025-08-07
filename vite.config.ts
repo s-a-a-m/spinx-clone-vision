@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 import { resolve } from "path";
 
 export default defineConfig(({ mode }) => ({
-  base: "/spinx-clone-vision/", // ✅ Required for GitHub Pages!
+  base: "/uw-site/", // ✅ Required for GitHub Pages!
   server: {
     host: "::",
     port: 8080,
