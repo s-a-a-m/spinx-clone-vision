@@ -11,11 +11,15 @@ export const Header = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center">
-            <span className="text-2xl font-bold text-foreground">
-              Unified Wisdom
-            </span>
-          </div>
+          
+          <div
+            className="flex items-center cursor-pointer"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          >
+          <span className="text-2xl font-bold text-foreground">
+            Unified Wisdom
+        </span>
+        </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
