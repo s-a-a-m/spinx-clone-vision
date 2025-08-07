@@ -3,33 +3,33 @@ import { Card, CardContent } from "@/components/ui/card";
 export const ServicesSection = () => {
   const services = [
     {
-      title: "Website Design & Development",
-      description: "Custom websites that captivate your audience and drive conversions",
+      title: "Operational Platform Design",
+      description: "Text",
       icon: "🎨"
     },
     {
-      title: "E-commerce Solutions",
-      description: "Robust online stores that maximize sales and customer satisfaction",
-      icon: "🛒"
-    },
-    {
-      title: "Digital Strategy",
-      description: "Data-driven strategies that align with your business objectives",
+      title: "Insight Layer Development",
+      description: "Custom dashboards, analysis tools, and data pipelines that give teams better answers, faster.",
       icon: "📊"
     },
     {
-      title: "Brand Identity",
-      description: "Compelling brand experiences that resonate with your target audience",
+      title: "Process Intelligence & Automation",
+      description: "Turn spreadsheet chaos into sleek, auditable systems — with zero-code or full-code solutions.",
+      icon: "🎯"
+    },
+    {
+      title: "Modular Toolkits for Legacy Teams",
+      description: "Prebuilt tools that can be customized and deployed fast — quoting engines, configurators, CRMs, and more.",
       icon: "✨"
     },
     {
-      title: "Mobile Applications",
-      description: "Native and cross-platform apps that engage users on any device",
+      title: "Custom Web & Mobile Interfaces",
+      description: "When a system needs a face, we design interfaces that are elegant, intuitive, and built for adoption.",
       icon: "📱"
     },
     {
-      title: "SEO & Marketing",
-      description: "Comprehensive digital marketing to increase visibility and reach",
+      title: "Cross-Team Integration Consulting",
+      description: "We don’t just build tools — we help you align people, data, and departments around them.",
       icon: "🚀"
     }
   ];
