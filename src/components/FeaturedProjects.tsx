@@ -4,21 +4,21 @@ import { Button } from "@/components/ui/button";
 export const FeaturedProjects = () => {
   const projects = [
     {
-      title: "TEST 1 PROJECT",
-      subtitle: "Medical Device Website Redesign Rejuvenates & Transforms Online Brand Image",
-      description: "A comprehensive redesign that modernized StemWave's online presence and enhanced user experience for medical professionals.",
+      title: "FieldOps Automation System",
+      subtitle: "Turning Field Chaos Into Real-Time Intelligence",
+      description: "Built and deployed a system that digitized field inspections for a €1.3B project, enabling real-time data capture, traceability, and automated Power BI reporting across multiple teams.",
       image: "/stemwave-preview.jpg",
       caseStudyLink: "/stemwave-case-study"
     },
     {
-      title: "BEGA Website Redesign",
-      subtitle: "Lighting Up an Internet Presence for BEGA",
-      description: "Complete brand transformation and website redesign for a leading lighting solutions company, focusing on premium user experience.",
+      title: "Profitability Intelligence Model",
+      subtitle: "From Static Reports to Dynamic Portfolio Decisions",
+      description: "Designed and automated a profit analysis model for polymer sales, integrating SQL-driven data and dynamic filters to enable granular decision-making by non-technical users.",
       image: "/bega-preview.jpg",
       caseStudyLink: "/bega-case-study"
     },
     {
-      title: "PSZJ Website Redesign",
+      title: "Example Project",
       subtitle: "Restructuring Success: PSZJ's Bankruptcy Law Firm Website Redesign",
       description: "Professional website redesign for a bankruptcy law firm, emphasizing trust, credibility, and client accessibility.",
       image: "/pszj-preview.jpg",
