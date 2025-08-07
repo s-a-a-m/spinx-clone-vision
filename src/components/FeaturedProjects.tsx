@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export const FeaturedProjects = () => {
   const projects = [
     {
-      title: "StemWave Medical Device Website Redesign & Development",
+      title: "TEST 1 PROJECT",
       subtitle: "Medical Device Website Redesign Rejuvenates & Transforms Online Brand Image",
       description: "A comprehensive redesign that modernized StemWave's online presence and enhanced user experience for medical professionals.",
       image: "/stemwave-preview.jpg",
