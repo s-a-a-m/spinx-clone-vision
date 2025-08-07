@@ -24,25 +24,25 @@ export const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#work" className="text-foreground hover:text-primary transition-colors">
-              WORK
+              Button 1
             </a>
             <a href="#services" className="text-foreground hover:text-primary transition-colors">
-              HOW WE HELP
+              Button 2
             </a>
             <a href="#industries" className="text-foreground hover:text-primary transition-colors">
-              INDUSTRIES
+              Button 3
             </a>
             <a href="#about" className="text-foreground hover:text-primary transition-colors">
-              ABOUT
+              Button 4
             </a>
             <a href="#resources" className="text-foreground hover:text-primary transition-colors">
-              RESOURCES
+              Button 5
             </a>
           </nav>
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <span className="text-sm text-muted-foreground">213.894.9933</span>
+            <span className="text-sm text-muted-foreground"></span>
             <Button 
               variant="default" 
               className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold px-6"
