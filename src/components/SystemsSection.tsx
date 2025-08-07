@@ -3,33 +3,33 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export const SystemsSection = () => {
   const systems = [
     {
-      title: "Intelligent Workflow Automation",
-      description: "Custom systems that streamline complex processes, reducing manual work by up to 80% while maintaining quality control.",
+      title: "Ops Intelligence Platforms",
+      description: "",
       icon: "⚡"
     },
     {
-      title: "Data-Driven Decision Frameworks",
-      description: "Analytics platforms that turn raw information into actionable insights, helping teams make smarter choices faster.",
+      title: "Decision-Grade Dashboards",
+      description: "",
       icon: "📊"
     },
     {
-      title: "Knowledge Management Systems",
-      description: "Centralized platforms that capture, organize, and distribute institutional knowledge across teams and projects.",
+      title: "Knowledge Retention Engines",
+      description: "",
       icon: "🧠"
     },
     {
-      title: "Resource Optimization Tools",
+      title: "Resource Forecasting Tools",
       description: "Smart scheduling and allocation systems that maximize efficiency while reducing waste and operational costs.",
       icon: "🎯"
     },
     {
-      title: "Communication Networks",
-      description: "Integrated systems that connect stakeholders, automate updates, and ensure everyone stays aligned on progress.",
+      title: "Traceability + Audit Systems",
+      description: "",
       icon: "🔄"
     },
     {
-      title: "Quality Assurance Frameworks",
-      description: "Automated monitoring and testing systems that maintain high standards while accelerating delivery timelines.",
+      title: "Connected Communication Layers",
+      description: "",
       icon: "✅"
     }
   ];
