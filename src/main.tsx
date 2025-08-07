@@ -4,7 +4,7 @@ import App from './App.tsx';
 import './index.css';
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename="/spinx-clone-vision">
+  <BrowserRouter basename="/uw-site">
     <App />
   </BrowserRouter>
 );
