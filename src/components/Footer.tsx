@@ -12,8 +12,8 @@ export const Footer = () => {
               Intelligence made simple for real-world results.
             </p>
             <div className="space-y-2">
-              <p className="text-sm text-muted-foreground">213.894.9933</p>
-              <p className="text-sm text-muted-foreground">hello@spinxdigital.com</p>
+              <p className="text-sm text-muted-foreground"> </p>
+              <p className="text-sm text-muted-foreground">info@unifiedwisdom.eu</p>
             </div>
           </div>
 
@@ -21,10 +21,10 @@ export const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Services</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">Website Design</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">E-commerce</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Mobile Apps</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Digital Strategy</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Service 1</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Service 2</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Service 3</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Service 4</a></li>
             </ul>
           </div>
 
@@ -57,7 +57,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm text-muted-foreground">
-            © 2024 Unified Wisdom. All rights reserved.
+            © 2025 Unified Wisdom. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
